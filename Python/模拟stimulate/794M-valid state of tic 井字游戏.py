@@ -1,3 +1,5 @@
+# 3 * 3 棋盘井字棋游戏，X先行。判断给出棋盘是否可能出现
+from typing import List
 class Solution:
     def validTicTacToe(self, board: List[str]) -> bool:
         countX, countO = 0, 0

@@ -1,15 +1,15 @@
-import javax.swing.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+package firstProblem;
+
+/**
+ * 按键类
+ * 
+ * @author EZMarvin
+ */
 public class Key {
-    public enum Status {
-        UP, DOWN
-    }
 
     private Status currentStatus = Status.UP;
-
-    Key(){
-
+    public enum Status {
+        UP, DOWN
     }
 
     public int getCurrentStatus(){
